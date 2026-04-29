@@ -35,10 +35,14 @@ This project was developed as a Bachelor of Science graduation project in Comput
 
 ## 📂 Repository Structure
 
-* **Halm_Website/backend:** Contains the Flask API, trained YOLOv8 model weights (`best.pt`), and the system database
-* **Halm_Website/src:** Contains the React frontend source code for the monitoring dashboard
-* **model:** Includes development notebooks and AI model scripts
-* **README.md:** Project documentation and overview
+📂 Repository Structure
+HALM-Smart-Safety-Helmet/
+├── Halm_Website/
+│   ├── backend/          # Flask API and SQLite database
+│   └── src/              # React Dashboard source code
+├── rpi_scripts/          # Hardware implementation scripts (Vision, Fall, GPS)
+├── model/                # AI development & evaluation notebooks
+└── README.md             # Project documentation
 
 ---
 
